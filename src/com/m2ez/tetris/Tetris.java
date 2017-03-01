@@ -79,16 +79,16 @@ public class Tetris extends JPanel {
 
     static {
         try {
-            background = ImageIO.read(Tetris.class.getResource("tetris.png"));
-            T = ImageIO.read(Tetris.class.getResource("T.png"));
-            S = ImageIO.read(Tetris.class.getResource("S.png"));
-            Z = ImageIO.read(Tetris.class.getResource("Z.png"));
-            I = ImageIO.read(Tetris.class.getResource("I.png"));
-            L = ImageIO.read(Tetris.class.getResource("L.png"));
-            J = ImageIO.read(Tetris.class.getResource("J.png"));
-            O = ImageIO.read(Tetris.class.getResource("O.png"));
-            pause = ImageIO.read(Tetris.class.getResource("pause.png"));
-            gameOver = ImageIO.read(Tetris.class.getResource("game-over.png"));
+            background = ImageIO.read(Tetris.class.getResource("../../../resource/tetris.png"));
+            T = ImageIO.read(Tetris.class.getResource("../../../resource/T.png"));
+            S = ImageIO.read(Tetris.class.getResource("../../../resource/S.png"));
+            Z = ImageIO.read(Tetris.class.getResource("../../../resource/Z.png"));
+            I = ImageIO.read(Tetris.class.getResource("../../../resource/I.png"));
+            L = ImageIO.read(Tetris.class.getResource("../../../resource/L.png"));
+            J = ImageIO.read(Tetris.class.getResource("../../../resource/J.png"));
+            O = ImageIO.read(Tetris.class.getResource("../../../resource/O.png"));
+            pause = ImageIO.read(Tetris.class.getResource("../../../resource/pause.png"));
+            gameOver = ImageIO.read(Tetris.class.getResource("../../../resource/game-over.png"));
         } catch (final Exception e) {
             e.printStackTrace();
         }
